@@ -1,7 +1,7 @@
 // Configuração da aplicação
 const CONFIG = {
     // IMPORTANTE: Substitua pela URL do seu Google Apps Script
-    API_URL: 'https://script.google.com/macros/s/AKfycbzX9aX1VNrN2KkRPqXzEFF_cga2rlTSeq2pA5JIlnlucWnVKMHre7QYuTerdghcIuA4/exec',
+    API_URL: 'https://script.google.com/macros/s/AKfycbz1lkqzpX-argQ8NqwHJPk3ao34sBmUs_fkcLc0X-McTKiET8ykyCZPX3WYCOPoMKzhKg/exec',
     
     // Configurações locais
     DATE_FORMAT: 'pt-BR'
