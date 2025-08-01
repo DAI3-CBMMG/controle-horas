@@ -1,7 +1,7 @@
 // Configuração da aplicação
 const CONFIG = {
-    // IMPORTANTE: Substitua pela URL do seu Google Apps Script
-    API_URL: 'https://script.google.com/macros/s/AKfycbwaFYv0vEyUL_0b1k5WyAokcjAciTrkGQnDdf2TaVardCeNd6sDecsMMoFIIljbiXZ0Bg/exec',
+    // IMPORTANTE: Substitua pela URL do seu Cloudflare Worker
+    API_URL: 'https://horas-bombeiros-proxy.dai-c4a.workers.dev/',
     
     // Configurações locais
     DATE_FORMAT: 'pt-BR'
