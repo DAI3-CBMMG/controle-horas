@@ -1,7 +1,7 @@
 // Configuração da aplicação
 const CONFIG = {
-    // IMPORTANTE: Substitua pela URL do seu Cloudflare Worker
-    API_URL: 'https://horas-bombeiros-proxy.dai-c4a.workers.dev/',
+    // IMPORTANTE: URL do backend Flask
+    API_URL: 'https://5000-irr0s20y2qhsx8i4f8jto-824ad7b7.manusvm.computer',
     
     // Configurações locais
     DATE_FORMAT: 'pt-BR'
@@ -480,7 +480,7 @@ async function callAPI(action, payload) {
         payload: payload
     };
     
-    const response = await fetch(CONFIG.API_URL, {
+    const response = await fetch(`${CONFIG.API_URL}/api/${action}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
