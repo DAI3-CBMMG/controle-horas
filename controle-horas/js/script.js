@@ -1,7 +1,7 @@
 ﻿// Configuração da aplicação
 const CONFIG = {
     // IMPORTANTE: Substitua pela URL do seu Google Apps Script
-    API_URL: 'https://script.google.com/macros/s/AKfycbzX9aX1VNrN2KkRPqXzEFF_cga2rlTSeq2pA5JIlnlucWnVKMHre7QYuTerdghcIuA4/exec',
+    API_URL: 'https://script.google.com/macros/s/AKfycbyikMXYDzk6K_SMr3u1EDvpA0pHA09gsqALaZtZF9lQD8WSpaxVGQ5DveHmXiXiFCsw/exec',
     
     // Configurações locais
     STORAGE_KEY: 'bombeiroUser',
